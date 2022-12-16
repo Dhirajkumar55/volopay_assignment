@@ -1,0 +1,35 @@
+input:  (1st line -> 'n' no of columns in the aeroplane)
+        (next 'n' lines consists of cols and rows in each sub coloumns)
+        (last line represents no of passengers)
+
+4
+3 4
+4 5
+2 3
+3 4
+30
+
+output: (here -1 represents seats are not filled)
+        (seats allocated are represented by number)
+
+Allocation: 
+
+25 -1 1 
+27 -1 7 
+29 -1 13 
+-1 -1 19 
+
+2 -1 -1 3 
+8 -1 -1 9 
+14 -1 -1 15 
+20 -1 -1 21 
+23 -1 -1 24 
+
+4 5 
+10 11 
+16 17 
+
+6 -1 26 
+12 -1 28 
+18 -1 30 
+22 -1 -1 

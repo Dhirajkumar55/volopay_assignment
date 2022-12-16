@@ -133,7 +133,7 @@ def main():
         myQueue.append(i)
     
     
-    if passengers > maxSeats:
+    if passengers > maxSeats: # check if passengers exceeds the max no of seats available
         print('Unable to allocate passengers starting from: ' + str(maxSeats+1), " to "+ str(passengers));
         print()
         passengers = maxSeats

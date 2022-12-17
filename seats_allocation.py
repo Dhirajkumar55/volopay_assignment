@@ -83,8 +83,10 @@ def main():
     for i in range(n):
         cols, rows = 0, 0
         temp = input() # input -> for each column -> no of cols, no of rows
+
+        temp = temp.slpit()
         cols = int(temp[0])
-        rows = int(temp[2])
+        rows = int(temp[1])
         maxSeats += cols*rows
         maxR = max(maxR, rows)
         seats[i] = [[-1 for k in range(cols)]for j in range(rows)]
